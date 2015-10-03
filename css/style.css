@@ -1,0 +1,63 @@
+@font-face{
+	font-family: 'deathrattlebb_reg';
+	src: url('../fonts/deathrattlebb_reg.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'youmurdererbb_reg';
+	src: url('../fonts/youmurdererbb_reg.ttf') format('truetype');
+}
+
+body {
+  /**background: url('http://p1.pichost.me/i/69/1942659.jpg') no-repeat center center;**/
+  background: url('http://londonyodeller.ca/london/wp-content/uploads/2015/02/zombie-apocalypse-is-possible-1-1024x708.jpg') no-repeat center center;
+  /**background: url('https://litinglesa.files.wordpress.com/2013/02/apocalypse_london-1.jpg') no-repeat center center;**/
+  background-size: cover;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h1, h2, p {
+  font-family: "youmurdererbb_reg";
+}
+
+.container {
+  background: url('../images/blood.png') repeat-x top center;
+}
+
+.header {
+  text-align: center;
+}
+
+.content {
+  padding: 1.2em;
+}
+
+.main {
+  background: rgba(255,0,0,0.5);
+  padding-top: 44px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 4em;
+  }
+  .content {
+    padding: 0em;
+  }
+  .main {
+    margin: 0;
+    padding:
+  }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
