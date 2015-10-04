@@ -1,0 +1,26 @@
+{
+  "name": "falloween",
+  "version": "1.0.0",
+  "description": "Falloween Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inkysplat/falloween.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inkysplat/falloween/issues"
+  },
+  "homepage": "https://github.com/inkysplat/falloween#readme",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "grunt-cli": "^0.1.13",
+    "grunt-cloudfiles": "^0.3.0",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-uglify": "^0.9.2"
+  }
+}
